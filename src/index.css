@@ -15,3 +15,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.landing-main{
+  height: 100vh;
+  background-image:url(./images/DudHome.jpeg);
+  background-size: cover;
+}
