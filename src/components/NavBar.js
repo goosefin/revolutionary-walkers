@@ -1,15 +1,15 @@
-import DudHome from '../images/DudHome.jpeg'
+import logo from '../images/logo.png'
 
 function NavBar(){
     return (
-        <div className='landing-main'>  
-            {/* <img src={DudHome} alt="brown dog looking into the camera"/> */}
+        <div className='flex justify-between items-start' id="landing-main">  
+            <img src={logo} alt="brown dog looking into the camera" id="nav-logo"/>
             <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SERVICES & PRICING</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">JOIN THE REVOLUTION</a></li>
+                <ul id="nav-list" className='flex justify-evenly text-xl'>
+                    <li><a href="#" className='hover:text-[#016891] hover:underline'>HOME</a></li>
+                    <li><a href="#" className='hover:text-[#016891] hover:underline'>SERVICES & PRICING</a></li>
+                    <li><a href="#" className='hover:text-[#016891] hover:underline'>FAQ</a></li>
+                    <li><a href="#" className='hover:text-[#016891] hover:underline'>JOIN THE REVOLUTION</a></li>
                 </ul>
             </nav>
         </div>

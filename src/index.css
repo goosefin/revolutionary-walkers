@@ -16,8 +16,19 @@ code {
     monospace;
 }
 
-.landing-main{
+#landing-main{
   height: 100vh;
   background-image:url(./images/DudHome.jpeg);
   background-size: cover;
+}
+
+#nav-logo{
+  max-width: 9em;
+  margin: 1em 0 0 5em;
+}
+
+#nav-list{
+  margin-top: 2em;
+  width:40em;
+  color: #ffffff;
 }
