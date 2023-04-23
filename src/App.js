@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import NavBar from "./components/NavBar";
+import Collage from "./components/Collage";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <p className="slogan-text">FOR YOU, THEY'RE MORE THAN JUST A PET</p>
         <p className="slogan-text">FOR US, IT'S MORE THAN JUST A JOB</p>
       </div>
+
+      <Collage/>
     </div>
     
   );

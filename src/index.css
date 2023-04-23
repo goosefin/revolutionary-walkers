@@ -36,10 +36,28 @@ code {
 #slogan{
   font-family: 'Bungee', cursive;
   color: #93c11f;
-  min-height: 19.5em;
+  min-height: 19.9em;
   font-size: xx-large;
 }
 
 .slogan-text{
   text-shadow: black 1px 0 10px;
+}
+
+#collage-div{
+  max-width: 100%;
+  background-color: #2b7198;
+  padding: 5em 5em 5em 5em;
+}
+
+/* #collage-2{
+  margin-top: .5em;
+} */
+
+#collage-4{
+  border-bottom: 10px solid #2b7198;
+}
+
+#collage-5{
+  margin-top: -13.7em;
 }
