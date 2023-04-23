@@ -1,4 +1,3 @@
-import goose from '../images/goose.jpeg'
 import goose2 from '../images/goose2.jpeg'
 import goose3 from '../images/goose3.jpeg'
 import jen from '../images/jen.jpeg'
@@ -15,7 +14,6 @@ function Collage() {
             <img src={jen2} id="collage-4"/>
             <img src={goose3} id="collage-5"/>
             <img src={len} id="collage-6"/>
-            {/* <img src={goose} id="collage-7"/>            */}
         </div>
     )
 }

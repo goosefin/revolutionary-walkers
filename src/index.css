@@ -50,14 +50,14 @@ code {
   padding: 5em 5em 5em 5em;
 }
 
-/* #collage-2{
-  margin-top: .5em;
-} */
-
 #collage-4{
   border-bottom: 10px solid #2b7198;
 }
 
 #collage-5{
   margin-top: -13.7em;
+}
+
+#benefits-h2{
+  font-family: 'Bungee',cursive;
 }

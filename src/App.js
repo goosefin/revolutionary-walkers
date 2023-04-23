@@ -2,6 +2,7 @@
 // import './App.css';
 import NavBar from "./components/NavBar";
 import Collage from "./components/Collage";
+import Benefits from "./components/Benefits";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <p className="slogan-text">FOR US, IT'S MORE THAN JUST A JOB</p>
       </div>
 
+      <Benefits/>
       <Collage/>
     </div>
     
