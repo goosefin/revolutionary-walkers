@@ -32,3 +32,14 @@ code {
   width:40em;
   color: #ffffff;
 }
+
+#slogan{
+  font-family: 'Bungee', cursive;
+  color: #93c11f;
+  min-height: 19.5em;
+  font-size: xx-large;
+}
+
+.slogan-text{
+  text-shadow: black 1px 0 10px;
+}
