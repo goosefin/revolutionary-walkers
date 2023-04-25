@@ -58,6 +58,16 @@ code {
   margin-top: -13.7em;
 }
 
+#benefits-div{
+  height: 90vh;
+}
+
+#benefits-text-div{
+  height:80vh;
+  padding:4em 12em 0 12em;
+}
+
 #benefits-h2{
-  font-family: 'Bungee',cursive;
+  font-family: 'Bungee Shade', cursive;
+  color: rgb(99, 3, 172);
 }
