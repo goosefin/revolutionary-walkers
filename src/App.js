@@ -3,6 +3,7 @@
 import NavBar from "./components/NavBar";
 import Collage from "./components/Collage";
 import Benefits from "./components/Benefits";
+import WhyUs from "./components/WhyUs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
       <Benefits/>
       <Collage/>
+      <WhyUs/>
     </div>
     
   );

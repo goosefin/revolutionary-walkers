@@ -71,3 +71,13 @@ code {
   font-family: 'Bungee Shade', cursive;
   color: rgb(99, 3, 172);
 }
+
+#why-us-div{
+  height:80vh;
+  padding-left:3em;
+}
+
+#why-us-h2{
+  font-family: 'Bungee Shade', cursive;
+  color: rgb(99, 3, 172);
+}
