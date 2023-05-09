@@ -4,7 +4,7 @@ function WhyUs(){
     return (
         <div className="bg-gradient-to-r from-cyan-400 to-sky-500" id="why-us-div">
             <h2 id="why-us-h2" className="text-4xl">WHY REVOLUTIONARY WALKERS?</h2>
-            <ul className="list-disc">
+            <ul className="list-disc" id="bullets">
                 <li>Personalized services based on your dog’s individual needs</li>
                 <li>Canine CPR & first-aid certified walkers</li>
                 <li>Flexible scheduling</li>

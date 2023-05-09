@@ -74,10 +74,23 @@ code {
 
 #why-us-div{
   height:80vh;
-  padding-left:3em;
+  padding:4em 12em 0 15em;
+  display: flex;
+  flex-direction: column;
 }
 
 #why-us-h2{
   font-family: 'Bungee Shade', cursive;
   color: rgb(99, 3, 172);
+  padding-bottom: .5em;
+  text-align: center;
+}
+
+#bullets{
+  display: flex;
+  flex-direction: column;
+  height: 25em;
+  justify-content: space-around;
+  color:white;
+  font-size: 20px;
 }
