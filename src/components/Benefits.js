@@ -2,7 +2,7 @@
 
 function Benefits() {
     return(
-        <div className="bg-gradient-to-r from-cyan-400 to-sky-500" id="benefits-div">
+        <div className="bg-gradient-to-r from-[#88d2cf] to-[#4084a0]" id="benefits-div">
             <div className="flex flex-col justify-between items-center" id="benefits-text-div">
                 <h2 className="text-4xl" id="benefits-h2">WHAT ARE THE BENEFITS OF HIRING A DOG WALKER?</h2>
                 <p className="text-white text-xl font-semibold">Often times, busy NYC dog owners find themselves asking the million-dollar question— ”do I need a dog walker?” Between juggling early mornings and late nights at the office, weekend brunch with friends, and training for that marathon, finding the time to ensure that your pet is being exercised and socialized properly can be tricky. This is where hiring a reliable dog walker comes in handy.</p>
