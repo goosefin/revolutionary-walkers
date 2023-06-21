@@ -74,7 +74,7 @@ code {
 
 #why-us-div{
   height:80vh;
-  padding:4em 12em 1em 15em;
+  padding:4em 12em 4em 15em;
   display: flex;
   flex-direction: column;
 }
@@ -84,6 +84,12 @@ code {
   color: rgb(99, 3, 172);
   padding-bottom: .5em;
   text-align: center;
+}
+
+#sign-up-btn{
+  align-self: center;
+  padding:1em 2em 1em 2em;
+  margin-top: 1em;
 }
 
 #bullets{

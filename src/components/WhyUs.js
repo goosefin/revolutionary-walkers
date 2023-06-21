@@ -14,6 +14,7 @@ function WhyUs(){
                 <li className="text-xl font-semibold">Fully insured and bonded</li>
                 <li className="text-xl font-semibold">Most importantly, we truly LOVE what we do. All of our walkers not only have extensive knowledge and understanding of canine behavior, but we also treat your pet as if they were our own!</li>
             </ul>
+            <button id="sign-up-btn" className="rounded-none border-2 border-white">Sign Up</button>
         </div>
     )
 }
