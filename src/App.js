@@ -3,39 +3,24 @@ import Collage from "./components/Collage";
 import Benefits from "./components/Benefits";
 import WhyUs from "./components/WhyUs";
 import Footer from "./components/Footer";
-import logo from './images/logo.png';
+import Home from './components/Home'
 import { Link, Route, Routes} from 'react-router-dom';
 import Services from './pages/Services'
 
 function App() {
+  const navColor = () =>{
+    let nav = document.getElementById('nav-div')
+    nav.style.backgroundColor = '#1b1c1d'
+    console.log('clicked')
+  }
   return (
     <>
+      {/* <Nav navColor={navColor}/> */}
       <Nav/>
-      <div id="landing-main">
-
-        
-        {/* <div className='flex justify-between items-start' >  
-          <img src={logo} alt="green and blue cartoon of a dog fetching a ball" id="nav-logo"/>
-          <nav>
-            <ul id="nav-list" className='flex justify-evenly text-xl'>
-              <li><Link className='hover:text-[#016891] hover:underline' to="/">HOME</Link></li>
-              <li><Link className='hover:text-[#016891] hover:underline' to="/services">SERVICES & PRICING</Link></li>
-              <li><Link className='hover:text-[#016891] hover:underline' to="/faq">FAQ</Link></li>
-              <li><Link className='hover:text-[#016891] hover:underline' to="/join">JOIN THE REVOLUTION</Link></li>
-            </ul>
-          </nav>
-        </div> */}
-      
-      <div className='flex flex-col items-center justify-center' id="slogan">
-        <p className="slogan-text">FOR YOU, THEY'RE MORE THAN JUST A PET</p>
-        <p className="slogan-text">FOR US, IT'S MORE THAN JUST A JOB</p>
-      </div>
-
-      </div>
-
       <Routes>
         <Route path="/" element={
           <>
+            <Home/>
             <Benefits/>
             <Collage/>
             <WhyUs/>

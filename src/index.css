@@ -20,12 +20,12 @@ code {
   height: 100vh;
   background-image:url(./images/DudHome.jpeg);
   background-size: cover;
-  margin-top: -6.1em;
+  margin-top: -7.07em;
 }
 
 #nav-logo{
   max-width: 9em;
-  margin: 1em 0 0 5em;
+  margin: 1em 0 1em 5em;
 }
 
 #nav-list{
@@ -120,4 +120,9 @@ code {
 .logos{
   /* border: 2px solid white; */
   margin-right: 5px;
+}
+
+#services-div{
+  background-color: #2b7198;
+  height:100vh;
 }
