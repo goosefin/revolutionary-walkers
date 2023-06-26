@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Home from './components/Home'
 import { Route, Routes} from 'react-router-dom';
 import Services from './pages/Services'
+import Faq from './pages/Faq'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           </>
         }/>
         <Route path="/services" element={<Services/>}/>
-        <Route path="/faq"/>
+        <Route path="/faq" element={<Faq/>}/>
         <Route path="/join"/>
       </Routes>
       <Footer/>

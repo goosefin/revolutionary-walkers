@@ -137,3 +137,17 @@ code {
   text-align: center;
   font-size: 5em;
 }
+
+#faq-page{
+  height: 175vh;
+}
+
+#faq-h1{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4em;
+  text-align: center;
+}
+
+#faq-div{
+  
+}
