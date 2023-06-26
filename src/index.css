@@ -122,7 +122,23 @@ code {
   margin-right: 5px;
 }
 
-#services-div{
-  background-color: #2b7198;
+#services-page{
+  /* background-color: #2b7198; */
   height:100vh;
+}
+
+#services-div{
+  background-color: #78aecd;
+  display: flex;
+  flex-direction: column;
+  max-width: 80em;
+  margin:0 10em 0 10em;
+  color: white;
+  font-size: 1.55em;
+}
+
+#services-h1{
+  text-align: center;
+  font-size: 7em;
+  color:#78aecd;
 }

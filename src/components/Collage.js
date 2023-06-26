@@ -8,6 +8,7 @@ import len2 from '../images/len2.jpeg'
 function Collage() {
     return(
         <div className="grid grid-cols-3 gap-4" id="collage-div">
+            {/* add alt prop to these images */}
             <img src={len2} id="collage-1"/>
             <img src={jen} id="collage-2"/>
             <img src={goose2} id="collage-3"/>

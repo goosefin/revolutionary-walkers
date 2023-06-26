@@ -1,9 +1,8 @@
 import logo from '../images/logo.png'
-import { Link, Route, Routes} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Nav(){
     const navColor = (e) =>{
-        console.log(e.target.innerText)
         let nav = document.getElementById('nav-div')
         nav.style.backgroundColor = '#1b1c1d'
     }
