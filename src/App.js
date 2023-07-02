@@ -7,6 +7,7 @@ import Home from './components/Home'
 import { Route, Routes} from 'react-router-dom';
 import Services from './pages/Services'
 import Faq from './pages/Faq'
+import Join from './pages/Join';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         }/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/faq" element={<Faq/>}/>
-        <Route path="/join"/>
+        <Route path="/join" element={<Join/>}/>
       </Routes>
       <Footer/>
     </>

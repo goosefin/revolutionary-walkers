@@ -133,20 +133,15 @@ code {
   height: 23em;
 }
 
-#services-h1{
+.pages-h1{
   font-family: 'Bungee Shade', cursive;
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
+  color: #aefff1;
 }
 
 #faq-page{
   height: 190vh;
-}
-
-#faq-h1{
-  font-family: 'Bungee Shade', cursive;
-  font-size: 4em;
-  text-align: center;
 }
 
 #faq-div{
@@ -155,3 +150,8 @@ code {
   font-size: 1.55em;
   height: 50em;
 }
+
+#join-page{
+  height: 100vh;
+}
+

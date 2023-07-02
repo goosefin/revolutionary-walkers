@@ -2,7 +2,7 @@
 function Services(){
     return (
         <div id="services-page" className="bg-[#2b7198]">
-            <h1 id="services-h1" className="text-[#aefff1] mb-5">Services and Pricing</h1>
+            <h1 className="mb-5 pages-h1">Services and Pricing</h1>
             <div id="services-div" className="bg-[#78aecd] flex flex-col text-white p-3 justify-between">
                 <p><b>Meet & Greet (Free)</b>- Initital consultation where we give you the opportunity to meet our team and discuss your dog's needs in person. A brief behavioral assesment of your pet is necessary to determine any limitations to potential services.</p>
                 <p><b>Relief Walk ($10)</b>- A quick fifteen minute walk for that allows your dog to use the bathroom.</p>
