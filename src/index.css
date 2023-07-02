@@ -76,7 +76,7 @@ code {
 
 #why-us-div{
   height:80vh;
-  padding:4em 12em 4em 15em;
+  padding:4em 12em 4em 12em;
   display: flex;
   flex-direction: column;
 }
@@ -130,6 +130,7 @@ code {
   max-width: 80em;
   margin:0 10em 0 10em;
   font-size: 1.55em;
+  height: 23em;
 }
 
 #services-h1{
@@ -139,7 +140,7 @@ code {
 }
 
 #faq-page{
-  height: 175vh;
+  height: 190vh;
 }
 
 #faq-h1{
@@ -149,5 +150,8 @@ code {
 }
 
 #faq-div{
-  
+  max-width: 80em;
+  margin:1em 10em 0 10em;
+  font-size: 1.55em;
+  height: 50em;
 }

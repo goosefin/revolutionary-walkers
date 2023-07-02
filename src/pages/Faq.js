@@ -3,7 +3,7 @@ function Faq(){
     return(
         <div id="faq-page" className="bg-[#2b7198]">
             <h1 id="faq-h1" className="text-[#aefff1]">Frequently Asked Questions</h1>
-            <div id="faq-div" className="bg-[#78aecd] flex flex-col">
+            <div id="faq-div" className="bg-[#78aecd] flex flex-col text-white p-3 justify-between">
                 <span>
                     <p><b>Q. What should I expect at the meet and greet?</b></p>
                     <p>A. Meet and greets give you and your pet a chance to meet your walker and vice-versa. They are held in your home and usually take 20 to 30 minutes. Your walker will ask you questions regarding your dogs normal routine and gather all the necessary information to ensure safe and fun walks moving forward.</p>
