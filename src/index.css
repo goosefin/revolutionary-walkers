@@ -155,3 +155,19 @@ code {
   height: 100vh;
 }
 
+#join-div{
+  display: flex;
+  font-size: 1.55em;
+  margin-top: 4em;
+}
+
+#join-p{
+  width:20em;
+}
+
+#form{
+  width:20em;
+  display: flex;
+  height: 20em;
+  margin-top: -2em;
+}

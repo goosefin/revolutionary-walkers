@@ -11,20 +11,23 @@ export const Contact = () => {
       .then((result) => {
           console.log(result.text);
           console.log('Message sent')
+          alert("Message sent")
       }, (error) => {
           console.log(error.text);
       });
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+      <form id="form" ref={form} onSubmit={sendEmail} className="flex flex-col justify-between">
+        <label>Name</label>
+        <input type="text" name="user_name" className="rounded-lg"/>
+        <label>Email</label>
+        <input type="email" name="user_email" className="rounded-lg"/>
+        <label>Address</label>
+        <input type="text" name="address" className="rounded-lg"/>
+        <label>Message</label>
+        <textarea name="message" className="rounded-lg"/>
+        <input type="submit" value="Send" className="hover:text-[#aefff1] hover:underline w-20 self-center"/>
+      </form>
   );
 };
