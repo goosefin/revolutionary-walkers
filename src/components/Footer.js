@@ -7,8 +7,7 @@ function Footer(){
             <p>© 2023 Revolutionary Walkers, LLC. All rights reserved</p>
             <div id="footer-links">
                 <img className="logos border-solid border-[1px] border-white rounded-lg hover:bg-white" src={ig} alt="instagram logo"/>
-                <img className="logos border-solid border-[1px] rounded-lg border-white hover:bg-white"  src={yelp} alt="yelp log"/>
-                <a className="hover:underline" href="revolutionarywalkers.com/careers">Careers</a>
+                <img className="logos border-solid border-[1px] rounded-lg border-white hover:bg-white"  src={yelp} alt="yelp logo"/>
             </div>
         </div>
     )
