@@ -172,7 +172,7 @@ code {
   margin-top: -2em;
 }
 
-@media screen and (max-width:1024px){
+/* @media screen and (max-width:1024px){
   #nav-logo{
     max-width:7em;
   }
@@ -180,4 +180,28 @@ code {
   #collage-5{
     margin-top: -8em;
   }
-}
+
+  .pages-h1{
+    font-size: 3em;
+  }
+
+  #services-div{
+    font-size: 1.1em;
+    height: 27em;
+  }
+
+  #faq-page{
+    height:160vh
+  }
+  #faq-div{
+    font-size: 1.1em;
+  }
+
+  #join-page{
+    height:80vh;
+  }
+
+  #join-div{
+    font-size: 1.1em;
+  }
+} */
