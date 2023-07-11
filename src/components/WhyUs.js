@@ -8,7 +8,7 @@ function WhyUs(){
                 <li className="text-xl  font-semibold">Personalized services based on your dog’s individual needs</li>
                 <li className="text-xl   font-semibold">Canine CPR & first-aid certified walkers</li>
                 <li className="text-xl   font-semibold">Flexible scheduling</li>
-                <li className="text-xl   font-semibold">Daily activity logs via our third party app</li>
+                <li className="text-xl   font-semibold">Daily activity logs via our third-party app</li>
                 <li className="text-xl   font-semibold">Seamless online invoicing and payment options</li>
                 <li className="text-xl   font-semibold">We’re a small business with a small team— which means your pup will always be cared for by a familiar face </li>
                 <li className="text-xl   font-semibold">Fully insured and bonded</li>
