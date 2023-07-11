@@ -171,3 +171,13 @@ code {
   height: 20em;
   margin-top: -2em;
 }
+
+@media screen and (max-width:1024px){
+  #nav-logo{
+    max-width:7em;
+  }
+
+  #collage-5{
+    margin-top: -8em;
+  }
+}
