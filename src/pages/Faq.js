@@ -16,11 +16,11 @@ function Faq(){
 
                 <span>
                     <p><b>Q. Do you offer group walks?</b></p>
-                    <p>A. Most of our walks are one to two dogs. For the safety of our staff and your, dog we limit our group walks to four dogs maximum.</p>
+                    <p>A. Most of our walks are one to two dogs. For the safety of our staff and your dog, we limit our group walks to four dogs maximum.</p>
                 </span>
 
                 <span>
-                    <p><b>Q. Can you board my dog</b></p>
+                    <p><b>Q. Can you board my dog?</b></p>
                     <p>A. At this time we are only offering overnight services which are always done in your home. By keeping your dog in their home while you are away we are helping minimize their stress and helping them enjoy their stay-cation.</p>
                 </span>
 
